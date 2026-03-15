@@ -425,7 +425,7 @@ function DetailCard({ item }) {
       }} />
       <div style={{ display: "flex", alignItems: "flex-start", gap: 16 }}>
         <div style={{
-          fontSize: 32, lineHeight: 1, color: item.color,
+          fontSize: 38, lineHeight: 1, color: item.color,
           fontFamily: "serif", flexShrink: 0, marginTop: 2,
           textShadow: `0 0 20px ${item.color}44`,
         }}>
@@ -434,27 +434,27 @@ function DetailCard({ item }) {
         <div style={{ flex: 1, minWidth: 0 }}>
           <div style={{ display: "flex", alignItems: "baseline", gap: 10, flexWrap: "wrap" }}>
             <h3 style={{
-              margin: 0, fontSize: 20,
+              margin: 0, fontSize: 24,
               fontFamily: "'Playfair Display', Georgia, serif",
               color: "#F5E6D3", fontWeight: 700, letterSpacing: "0.02em",
             }}>
               {item.title}
             </h3>
             <span style={{
-              fontSize: 13, color: item.color, fontStyle: "italic",
+              fontSize: 16, color: item.color, fontStyle: "italic",
               fontFamily: "'Cormorant Garamond', Georgia, serif",
             }}>
               {item.subtitle}
             </span>
           </div>
           <div style={{
-            fontSize: 10, color: "rgba(245,230,211,0.35)", marginTop: 4,
+            fontSize: 13, color: "rgba(245,230,211,0.35)", marginTop: 4,
             fontFamily: "monospace", letterSpacing: "0.08em", textTransform: "uppercase",
           }}>
             {item.era}
           </div>
           <p style={{
-            margin: "12px 0 0", fontSize: 15, lineHeight: 1.7,
+            margin: "12px 0 0", fontSize: 18, lineHeight: 1.7,
             color: "rgba(245,230,211,0.7)",
             fontFamily: "'Cormorant Garamond', Georgia, serif",
           }}>
@@ -471,7 +471,7 @@ function DetailCard({ item }) {
                       background: item.color, flexShrink: 0, marginTop: 8, opacity: 0.6,
                     }} />
                     <p style={{
-                      margin: 0, fontSize: 14, lineHeight: 1.7,
+                      margin: 0, fontSize: 17, lineHeight: 1.7,
                       color: "rgba(245,230,211,0.6)",
                       fontFamily: "'Cormorant Garamond', Georgia, serif",
                     }}>
@@ -486,14 +486,14 @@ function DetailCard({ item }) {
                 background: `${item.color}08`, borderRadius: "0 10px 10px 0",
               }}>
                 <p style={{
-                  margin: 0, fontSize: 14, lineHeight: 1.7,
+                  margin: 0, fontSize: 17, lineHeight: 1.7,
                   color: "rgba(245,230,211,0.75)", fontStyle: "italic",
                   fontFamily: "'Cormorant Garamond', Georgia, serif",
                 }}>
                   "{item.content.quote}"
                 </p>
                 <cite style={{
-                  display: "block", marginTop: 6, fontSize: 11,
+                  display: "block", marginTop: 6, fontSize: 13,
                   color: "rgba(245,230,211,0.35)", fontStyle: "normal", fontFamily: "monospace",
                 }}>
                   {item.content.quoteSource}
@@ -502,7 +502,7 @@ function DetailCard({ item }) {
             </div>
           )}
           <div style={{
-            marginTop: 12, fontSize: 11, color: item.color,
+            marginTop: 12, fontSize: 14, color: item.color,
             fontFamily: "monospace", opacity: 0.6,
           }}>
             {expanded ? "▲ collapse" : "▼ tap to explore"}
