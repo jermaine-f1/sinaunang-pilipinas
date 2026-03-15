@@ -703,7 +703,7 @@ export default function PreColonialPhilippines() {
               background: "rgba(196,149,106,0.08)",
               border: "1px solid rgba(196,149,106,0.2)",
               color: "#C4956A", padding: "12px 28px", borderRadius: 24,
-              fontSize: 13, fontFamily: "'Playfair Display', Georgia, serif",
+              fontSize: 16, fontFamily: "'Playfair Display', Georgia, serif",
               cursor: "pointer", transition: "all 0.3s", letterSpacing: "0.04em",
             }}
             onMouseEnter={e => e.currentTarget.style.background = "rgba(196,149,106,0.15)"}
@@ -734,13 +734,13 @@ export default function PreColonialPhilippines() {
                   </div>
                   <div>
                     <div style={{
-                      fontFamily: "monospace", fontSize: 11, color: "#C4956A",
+                      fontFamily: "monospace", fontSize: 14, color: "#C4956A",
                       letterSpacing: "0.05em", marginBottom: 3,
                     }}>
                       {t.year}
                     </div>
                     <p style={{
-                      margin: 0, fontSize: 14, lineHeight: 1.6,
+                      margin: 0, fontSize: 17, lineHeight: 1.6,
                       color: "rgba(245,230,211,0.6)",
                       fontFamily: "'Cormorant Garamond', Georgia, serif",
                     }}>
@@ -761,11 +761,11 @@ export default function PreColonialPhilippines() {
         }}>
           <h3 style={{
             fontFamily: "'Playfair Display', Georgia, serif",
-            fontSize: 19, margin: "0 0 14px", color: "#C4956A", fontWeight: 700,
+            fontSize: 23, margin: "0 0 14px", color: "#C4956A", fontWeight: 700,
           }}>
             Everything Was Connected
           </h3>
-          <p style={{ margin: 0, fontSize: 15, lineHeight: 1.8, color: "rgba(245,230,211,0.6)" }}>
+          <p style={{ margin: 0, fontSize: 18, lineHeight: 1.8, color: "rgba(245,230,211,0.6)" }}>
             A single community gathering might begin with betel being prepared and shared,
             basi or tuba poured in ritualized tagay rounds — hands raised to the sky before
             each drink — while a babaylan conducted a pag-anito with animal sacrifice.
@@ -776,7 +776,7 @@ export default function PreColonialPhilippines() {
             to the afterlife. The epics chanted at harvest time encoded the same cosmology
             carved into burial jars.
           </p>
-          <p style={{ margin: "14px 0 0", fontSize: 15, lineHeight: 1.8, color: "rgba(245,230,211,0.5)" }}>
+          <p style={{ margin: "14px 0 0", fontSize: 18, lineHeight: 1.8, color: "rgba(245,230,211,0.5)" }}>
             Every person walked through a world alive with invisible presence — diwata
             in the balete trees, a personal twin spirit born alongside them, the
             Tigmamanukan bird reading their fate in the direction of its flight.
